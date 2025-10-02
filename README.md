@@ -412,7 +412,7 @@ Keywords: AI agent, tools/function calling, lead qualification, retrieval, i18n
 - Designed with OpenAI tools to make the AI agent easily extensible; currently emails sales when a conversation is deemed a qualified lead
 - Implemented frontend i18n
 
-## InnovativeAI, Support Chatbot for a Major Credit Card Company (Dec 2023 – Jan 2024)
+## Support Chatbot for a Major Credit Card Company (Dec 2023 – Jan 2024)
 
 ### Overview
 
@@ -573,7 +573,7 @@ Provided a shared API for address lookup (postal code to address) used across ma
 - Unified disparate implementations and eliminated address master maintenance
 - Considered migrating from Lambda to App Runner due to potential concurrency/cold start concerns
 
-## Mass Messaging Improvements for a Crowdfunding Service (2021)
+## Mass Messaging Improvements for a [Crowdfunding Service](https://fundinno.com/) (2021)
 
 ### Overview
 
@@ -593,7 +593,7 @@ Fixed timeouts when project creators sent messages to all supporters for large p
 - Used SendGrid’s batch sends (1,000 addresses) and Delayed Job for async processing
 - Results: handled >20,000 recipients reliably; removed user wait times
 
-## Auth Platform Migration for Crowdfunding Service (2020 – 2021)
+## Auth Platform Migration for [Crowdfunding Service](https://fundinno.com/) (2020 – 2021)
 
 ### Overview
 
@@ -618,7 +618,7 @@ Initially 2 (lead + me), later +2 developers and +1 advisor
   - Avoided long downtime and opportunity loss
   - Enabled low-effort addition of new social logins (when OIDC-compliant)
 
-## Comment Retrieval API for Crowdfunding Service (2020)
+## Comment Retrieval API for [Crowdfunding Service](https://fundinno.com/) (2020)
 
 ### Overview
 
