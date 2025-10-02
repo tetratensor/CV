@@ -10,10 +10,8 @@ This is the resume and skill sheet of [tetratensor](https://github.com/tetratens
 | :------- | :-------------------------------------------- |
 | Name     | Kazuma Mori                                   |
 | Location | Tsushima, Nikasaki, Japan                     |
-| LinkedIn | https://linkedin.com/tetratensor              |
 | Mail     | momotaro-tech@proton.me                       |
 | GitHub   | [tetratensor](https://github.com/tetratensor) |
-| Website  | https://tetratensor.com                       |
 
 # Strengths
 
