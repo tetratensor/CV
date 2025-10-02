@@ -412,7 +412,7 @@ Keywords: AI agent, tools/function calling, lead qualification, retrieval, i18n
 - Designed with OpenAI tools to make the AI agent easily extensible; currently emails sales when a conversation is deemed a qualified lead
 - Implemented frontend i18n
 
-## Support Chatbot for a Major Credit Card Company (Dec 2023 – Jan 2024)
+## InnovativeAI, Support Chatbot for a Major Credit Card Company (Dec 2023 – Jan 2024)
 
 ### Overview
 
@@ -441,12 +441,11 @@ Keywords: RAG, embeddings, PII redaction, content moderation, latency SLAs, Milv
 - Reduced communication overhead by documenting thoroughly to avoid repeated questions across many stakeholders
 - Set up CI/CD early to increase deploy frequency and shorten feedback loops
 
-## Job-Hunting Support Service using LLMs (May 2023 – Dec 2023)
+## InnovativeAI, [Resume-No](https://resume-no.ai/en), AI Recruiting / Hiring Platform (May 2023 – Dec 2024)
 
 ### Overview
 
-New app to support Japanese university students in job hunting using Generative AI (e.g., ES and “gakuchika” drafting).
-Keywords: prompt engineering, templates, structured outputs, Auth.js integration
+Worked on integrating or enhancing Resume-No(レジュメノー), an AI recruitment tool aimed at automating resume sourcing, screening, and candidate management for HR teams.
 
 ### Tech Stack
 
