@@ -10,7 +10,6 @@ This is the resume and skill sheet of [tetratensor](https://github.com/tetratens
 | :------- | :-------------------------------------------- |
 | Name     | Kazuma Mori                                   |
 | Location | Tsushima, Nikasaki, Japan                     |
-| Mail     | momotaro-tech@proton.me                       |
 | GitHub   | [tetratensor](https://github.com/tetratensor) |
 
 # Strengths
@@ -187,7 +186,7 @@ For TypeScript, I consider Edge runtimes like Cloudflare Workers first, and even
 | Vue.js       | B     | Built SPA incl. Vuex; less proficient than React          |
 | Next.js      | S     | Used for multiple greenfield apps                         |
 | Nuxt.js      | A     | Used for multiple greenfield apps                         |
-| Angular      | C     | Studied v1 era; not used recently                         |
+| Angular      | B     | Studied v1 era; not used recently                         |
 
 Comfortable with npm-based frontend tooling. Recently, my main is Next.js (React). I used Redux often before but now also use SWR and React Context, and like simple state libs such as [valtio](https://github.com/pmndrs/valtio).
 
