@@ -8,7 +8,6 @@
 | :------- | :-------------------------------------------- |
 | Name     | Kazuma Mori                                   |
 | Location | Tsushima, Nikasaki, Japan                     |
-| Mail     | momotaro-tech@proton.me                       |
 | GitHub   | [tetratensor](https://github.com/tetratensor) |
 
 # 得意な事
@@ -214,7 +213,7 @@ TypeScript で開発を実施する際は Cloudflare Workers のような Edge �
 | Vue.js       | B            | React よりは習熟度が高くないですが、Vuex も含めた SPA 開発を行った事があります。                          |
 | Next.js      | S            | 新規開発のアプリケーションで複数回利用しました。                                                          |
 | Nuxt.js      | A            | 新規開発のアプリケーションで複数回利用しました。                                                          |
-| Angular      | C            | 1 系の頃に少し学習しましたが最近は全く触っていません。                                                    |
+| Angular      | B            | 1 系の頃に少し学習しましたが最近は全く触っていません。                                                    |
 
 npm を用いたフロントエンド周りの環境構築等も問題なく行う事が出来ます。
 
