@@ -383,7 +383,7 @@ Keywords: STT/ASR, translation, multimodal, batching, serverless GPU, RAG (domai
   - Designed the UI using a component library when no designer was assigned (later replaced by official design)
   - Clarified prioritization and visibility to ship within limited time
 
-## Owned Media + AI Agent for an AI-focused Company (Jan 2024 – May 2024)
+## Algomatic, [Apodori](https://apodori.ai/) Owned Media + AI Agent for an AI-focused Company (Jan 2024 – May 2024)
 
 ### Overview
 
@@ -392,7 +392,7 @@ Keywords: AI agent, tools/function calling, lead qualification, retrieval, i18n
 
 ### Tech Stack
 
-- Next.js 14, Vercel, ESLint, Prettier
+- Vue.js/Nuxt.js, Pinia, Firebase
 - Python 3.12, Rye, FastAPI 0.100
 - OpenAI API, Fly.io (API server), Milvus (Zilliz Cloud)
 
@@ -411,7 +411,7 @@ Keywords: AI agent, tools/function calling, lead qualification, retrieval, i18n
 - Designed with OpenAI tools to make the AI agent easily extensible; currently emails sales when a conversation is deemed a qualified lead
 - Implemented frontend i18n
 
-## Support Chatbot for a Major Credit Card Company (Dec 2023 – Jan 2024)
+## Algomatic, Support Chatbot for a Major Credit Card Company (Dec 2023 – Jan 2024)
 
 ### Overview
 
