@@ -345,7 +345,7 @@ I also promoted the product and interacted directly with users on the official D
   - Released the Niji Voice API
 - With a strong team and focused scope, we shipped high-quality features quickly.
 
-## Video Translation App using LLMs (Mar 2024 – Sep 2024)
+## Algomatic, [AlgoGames](https://algo.games/translation/) Video Translation App using LLMs (Mar 2024 – Sep 2024)
 
 ### Overview
 
@@ -354,7 +354,7 @@ Keywords: STT/ASR, translation, multimodal, batching, serverless GPU, RAG (domai
 
 ### Tech Stack
 
-- Next.js 14, Vercel, [NextUI](https://nextui.org/)
+- Vue.js/Nuxt.js, Pinia, Firebase
 - Biome, Prettier
 - Python 3.12, Rye (pkg manager), FastAPI 0.112
 - OpenAI API, Anthropic API, Gemini API
