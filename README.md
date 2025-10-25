@@ -376,7 +376,7 @@ Keywords: STT/ASR, translation, multimodal, batching, serverless GPU, RAG (domai
 ### Outcomes
 
 - Productionized an existing LLM transcription/translation prototype into a user-facing app
-- Balanced speed and quality: Next.js (App Router) + Vercel + NextUI on frontend; Cloud Run on backend
+- Balanced speed and quality: Vue.js, Nuxt.js, Pinia on frontend; Cloud Run, Firebase on backend
 - Used Anthropic (Claude 3.5 Sonnet) and Gemini in addition to OpenAI as needed
 - Results:
   - Delivered β in 3 weeks on a part-time schedule (2 days/week); released final on time in Sep
@@ -440,7 +440,7 @@ Keywords: RAG, embeddings, PII redaction, content moderation, latency SLAs, Milv
 - Reduced communication overhead by documenting thoroughly to avoid repeated questions across many stakeholders
 - Set up CI/CD early to increase deploy frequency and shorten feedback loops
 
-## InnovativeAI, [Resume-No](https://resume-no.ai/en), AI Recruiting / Hiring Platform (May 2023 – Dec 2024)
+## InnovativeAI, [Resume-No](https://resume-no.ai), AI Recruiting / Hiring Platform (May 2023 – Dec 2024)
 
 ### Overview
 
@@ -448,7 +448,7 @@ Worked on integrating or enhancing Resume-No(レジュメノー), an AI recruitm
 
 ### Tech Stack
 
-- React 18, Next.js 13, Jest, ESLint, Prettier, Vercel
+- React 18, Next.js 13, GSAP, Three.js, Jest, ESLint, Prettier, Vercel
 - Upstash, Auth.js
 - Python 3.11, Poetry, FastAPI 0.100, OpenAI API
 - Milvus (Zilliz Cloud), PlanetScale, Fly.io (API server)
@@ -471,36 +471,7 @@ Worked on integrating or enhancing Resume-No(レジュメノー), an AI recruitm
 - Constantly reviewed scope and proposed changes based on customer value
 - Balanced speed and quality by leveraging AI for routine coding and learning new tech (Python, FastAPI, App Router) quickly
 
-## Large-Scale Auth Platform Replacement (Aug 2022 – Mar 2023)
-
-### Overview
-
-A client operating many services had slowed development due to poor maintainability and outdated dependencies with no tests. Goal: restore maintainability and speed.
-
-### Tech Stack
-
-- React 18, Next.js 13, Storybook, Jest, ESLint, Prettier, Vercel
-- Authlete, Upstash
-
-### Team Size
-
-3 total: 1 (me) + 1 developer + 1 designer
-
-### My Role
-
-- Project manager
-- Architecture selection/design/development
-- Developer documentation
-- Developer support and code reviews
-
-### Outcomes
-
-- SSR-heavy due to real-time account data and auth; used Edge Middleware and Edge API Routes to reduce latency
-- Achieved ~80 PageSpeed Insights score consistently via Upstash + Edge BFF
-- Clarified auth domain knowledge to improve maintainability significantly
-- Improved deploy frequency from ~2/week to ~7/week, enabling faster experimentation (A/B tests) and growth
-
-## Medical Media Frontend Replacement with Next.js (2021 – 2022)
+## [Smart Hospital](https://www.smarthp.co.jp/), Medical Media Frontend Replacement with Next.js (2021 – 2022)
 
 ### Overview
 
@@ -529,7 +500,36 @@ Major redesign to improve response speed and establish a robust frontend foundat
   - Large response-time improvements (PageSpeed +40% range)
   - Established frontend foundation and development rules
 
-## Email Sending API (2021)
+## CrowdWorks, Large-Scale Auth Platform Replacement (Aug 2022 – Mar 2023)
+
+### Overview
+
+A client operating many services had slowed development due to poor maintainability and outdated dependencies with no tests. Goal: restore maintainability and speed.
+
+### Tech Stack
+
+- React 18, Next.js 13, Storybook, Jest, ESLint, Prettier, Vercel
+- Authlete, Upstash
+
+### Team Size
+
+3 total: 1 (me) + 1 developer + 1 designer
+
+### My Role
+
+- Project manager
+- Architecture selection/design/development
+- Developer documentation
+- Developer support and code reviews
+
+### Outcomes
+
+- SSR-heavy due to real-time account data and auth; used Edge Middleware and Edge API Routes to reduce latency
+- Achieved ~80 PageSpeed Insights score consistently via Upstash + Edge BFF
+- Clarified auth domain knowledge to improve maintainability significantly
+- Improved deploy frequency from ~2/week to ~7/week, enabling faster experimentation (A/B tests) and growth
+
+## CrowdWorks, Email Sending API (2021)
 
 ### Overview
 
@@ -551,7 +551,7 @@ Unified email sending across multiple apps to avoid duplicated logic and scatter
 - Performed IP warmup and configured custom-domain sending
 - Later migrated to App Runner when Lambda concurrency limits approached
 
-## Postal Code to Address Lookup API (2021)
+## CrowdWorks, Postal Code to Address Lookup API (2021)
 
 ### Overview
 
@@ -637,7 +637,7 @@ Solve delayed comment rendering for projects with massive numbers of comments by
 - Tuned queries to avoid slow queries; optimized render performance with React DevTools
 - Results: eliminated delays and allowed viewing of all comments (previously capped)
 
-## Notification Service on EKS (2020)
+## Jiitak, Notification Service on EKS (2020)
 
 ### Overview
 
@@ -657,7 +657,7 @@ Microservice that sends notifications for various user actions (e.g., comments a
 - Established a Go-on-EKS foundation; shared knowledge in a PHP-centric org; documented Go patterns and differences vs. PHP
 - Project later ran at smaller scale due to budget; wished for more time on EKS/CI/CD polish
 
-## AWS Infra Foundation for Ad Tool (2019)
+## Jiitak, AWS Infra Foundation for Ad Tool (2019)
 
 ### Overview
 
@@ -676,7 +676,7 @@ Built new cloud environment for an ad operations tool.
 - Designed overall architecture; built multi-region infra with Terraform
 - Result: infra moved from unmanaged to codified; enabled easy international expansion
 
-## Migration from EC2 to AWS Fargate (2018)
+## Jiitak, Migration from EC2 to AWS Fargate (2018)
 
 ### Overview
 
@@ -695,7 +695,7 @@ Containerized existing EC2 apps and migrated to Fargate.
 - Led direction; built log analysis pipeline; authored Dockerfiles per app
 - Outcomes: reduced environment drift, faster deployments, optimized costs; aligned some apps with the Twelve-Factor App
 
-## Full Replacement of a Nursing Community Site (2017)
+## Extlink, Full Replacement of a Nursing Community Site (2017)
 
 ### Overview
 
@@ -727,7 +727,7 @@ Lead (me) + 5 developers + 1 PM
 - Created a self-sufficient dev team; improved both velocity and quality
 - Smooth data migration and project execution vs. prior replacement effort
 
-## Full Replacement of Major EC Site Member Platform (2016)
+## Extlink, Full Replacement of Major EC Site Member Platform (2016)
 
 ### Overview
 
@@ -766,7 +766,7 @@ Key lessons:
 - Small, elite teams beat large headcount for speed
 - Early, thorough technical validation is crucial
 
-## Internal Authorization Platform (2015)
+## Extlink, Internal Authorization Platform (2015)
 
 ### Overview
 
@@ -789,7 +789,7 @@ PM + 6 engineers (including me)
 - Unified bespoke auth flows into standards-based OAuth; clarified API access management; enabled CI to reduce post-release defects
 - Implemented OAuth Provider by mapping the OpenID Connect spec into code, reinforcing the importance of reading primary sources (RFCs, official docs)
 
-## Internal Common Deploy Tool Replacement (2014)
+## Extlink, Internal Common Deploy Tool Replacement (2014)
 
 ### Overview
 
@@ -807,7 +807,7 @@ Replaced an in-house deploy tool (no tests, no reproducible env) with standard t
 
 - Replaced “tribal-knowledge” deploy tool, making maintenance accessible to anyone
 
-## Social Login for Major EC Site (2013)
+## Extlink, Social Login for Major EC Site (2013)
 
 ### Overview
 
@@ -826,7 +826,7 @@ Implemented social login for a major EC site (Facebook and Google for initial re
 - +500,000 registered users in the first month post-release
 - Researched and implemented secure OAuth client flows; learned OAuth/OIDC fundamentals
 
-## Personal Info API Performance Improvements (2013)
+## Extlink, Personal Info API Performance Improvements (2013)
 
 ### Overview
 
@@ -845,7 +845,7 @@ Improved performance of an API that returns user personal information.
 - Achieved major improvements via query design under legacy schema constraints
 - Reduced average response from ~400 ms to ~150 ms; API became production-viable
 
-## Personal Info API Development (2013)
+## Extlink, Personal Info API Development (2013)
 
 ### Overview
 
